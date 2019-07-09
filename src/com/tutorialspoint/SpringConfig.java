@@ -21,7 +21,7 @@ public class SpringConfig extends WebMvcConfigurationSupport{
     @Bean
 
     public ViewResolver viewResolver() {
-    	System.out.println(" java config");
+    	System.out.println(" java configuration");
 
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
 
