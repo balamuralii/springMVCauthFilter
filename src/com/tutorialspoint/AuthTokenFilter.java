@@ -32,8 +32,7 @@ private String realm = "Protected";
 
     @Override
     public void destroy() {
-      System.out.println("print context");
-    }
+      System.out.println("print context and git changess");
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
